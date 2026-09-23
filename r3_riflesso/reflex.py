@@ -9,7 +9,8 @@ from .decide import ReflexDecider
 ROOT = Path(__file__).resolve().parents[1]
 
 def load_cfg(path):
-    return json.loads(Path(path).read_text(encoding="utf-8"))
+    # utf-8-sig: PowerShell Set-Content -Encoding UTF8 scrive il BOM.
+    return json.loads(Path(path).read_text(encoding="utf-8-sig"))
 
 def tick(decider, cfg, transcript, last_fired):
     t=transcript.strip()
