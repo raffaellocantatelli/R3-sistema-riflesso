@@ -1,0 +1,32 @@
+{
+  "fire_threshold": 0.80,
+  "wait_threshold": 0.55,
+  "min_chars": 6,
+  "cooldown_ms": 400,
+  "language": "it",
+  "backend": "auto",
+  "model": "jev-latest",
+  "dry_run": false,
+  "apps": {
+    "blocco note": "notepad.exe",
+    "bloc de notas": "notepad.exe",
+    "bloc notes": "notepad.exe",
+    "notepad": "notepad.exe",
+    "calcolatrice": "calc.exe",
+    "explorer": "explorer.exe",
+    "chrome": "chrome",
+    "firefox": "firefox",
+    "vscode": "code",
+    "visual studio code": "code",
+    "spotify": "spotify",
+    "obs": "obs",
+    "terminale": "wt",
+    "word": "winword",
+    "excel": "excel"
+  },
+  "folders": {
+    "download": "~/Downloads",
+    "documenti": "~/Documents",
+    "desktop": "~/Desktop"
+  }
+}

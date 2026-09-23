@@ -1,0 +1,4 @@
+# runtime minimo: stdlib. Opzionali sotto.
+# typesafe-sdk>=0.1
+# sounddevice
+# numpy
